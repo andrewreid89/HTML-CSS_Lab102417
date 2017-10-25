@@ -1,0 +1,266 @@
+*{padding:0;margin-left:0.5%;}
+
+body{
+    background-color:#f9fafc;
+}
+
+nav{
+    display:flex;
+    flex-direction:column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    color:#69696a;
+    text-decoration:none;
+    margin-top:5px;
+}
+
+#HireUs{
+    background-color:#000;
+    color:#f9fafc;
+    border-radius:50px;
+    width:90%;
+    align-self:center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size:16px;
+    padding:5px;
+}
+
+#Content{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    align-self:flex-start;
+}
+
+p{
+    color:#69696a;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:normal, 400;
+    border-left:4px solid #69696a;
+    padding-left: 20px;
+}
+
+#Scroll{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:800;
+    font-size:16px;
+    background-color:#000;
+    color:#f9fafc;
+    border-radius:20px;
+    width:90%;
+    align-self:center;
+    padding:5px;
+}
+
+
+
+
+@media (min-width:480px){
+   
+    
+
+    
+    header{
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    
+    nav{
+        align-items: flex-end;
+        flex-direction:row;
+    }
+    
+    a{
+        margin:10px;
+        white-space:nowrap;
+    }
+    
+    #HireUs{
+        white-space:nowrap;
+        padding: 5px 30px;
+    }
+    
+    
+    #Content{
+        display:flex;        
+        flex-direction:row;
+        justify-content:space-between;
+    }
+    
+    p{
+        width:40%;
+    }
+        
+    #Circles{
+        width:50%;
+        position:relative;
+        align-self:baseline;
+    }
+    
+    
+    #RedCircle{
+        height:300px;
+        width:300px;
+        border-radius:50%;
+        background-color:rgba(247,   136,   167,   0.6);
+        position:absolute;
+        top:-50px;
+    }
+    
+    
+    #PurpleCircle{
+        height:150px;
+        width:150px;
+        border-radius:50%;
+        background-color:rgba(207,   130,   213,   0.6);
+        position:absolute;
+        left:250px;
+        top:-20px;
+    }
+    
+    #OrangeCircle{
+        height:190px;
+        width:190px;
+        border-radius:50%;
+        background-color:rgba(247,   193,   162,   0.7);
+        position:absolute;
+        left:200px;
+        top:100px;
+    }
+
+    
+    #Scroll{
+        margin-top:100px;
+        padding: 10px 30px;
+        border-radius:20px;
+        width:auto;
+    }
+    
+    #ScrollButton{
+        display:flex;
+        justify-content: center;
+    }
+    
+}
+
+
+/*    
+    
+
+    
+    
+    
+    
+nav{
+    position:fixed;
+    top:10px;
+    right:50px;
+    width:100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:normal,800;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+
+
+h4{
+    position:fixed;
+    top:25px;
+    margin-left:20px;
+}
+
+a, #button{
+    color:#69696a;
+    text-decoration:none;
+    margin:10px;
+}
+
+#button{
+    background-color:#000;
+    color:#f9fafc;
+    padding: 10px 30px;
+    border-radius:20px;
+}
+
+
+#content{
+    position:absolute;
+    display:inline-block;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    position:relative;
+    margin-top:200px;
+    margin-left:20px;
+}
+
+p{
+    color:#69696a;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:normal,800;
+    position:relative;
+    margin-top:20px;
+    width:38%;
+    border-left:4px solid #69696a;
+    padding-left: 20px;
+    margin-left:20px;
+}
+
+#RedCircle{
+    height:300px;
+    width:300px;
+    border-radius:50%;
+    background-color:rgba(247,   136,   167,   0.6);
+    position:absolute;
+    left:65%;
+    bottom:75px;
+}
+
+
+#PurpleCircle{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    background-color:rgba(207,   130,   213,   0.6);
+    position:absolute;
+    left:85%;
+    bottom:200px;
+}
+
+#OrangeCircle{
+    height:190px;
+    width:190px;
+    border-radius:50%;
+    background-color:rgba(247,   193,   162,   0.7);
+    position:absolute;
+    left:82%;
+    bottom:45px;
+}
+
+
+#Scroll{
+    font-family: 'Open Sans', sans-serif;
+    font-size:15px;
+    background-color:#000;
+    color:#f9fafc;
+    padding: 10px 30px;
+    border-radius:20px;
+    position:absolute;
+    left:50%;
+    bottom:-50px;
+}
+
+*/    
+    
+}
