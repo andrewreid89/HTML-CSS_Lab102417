@@ -1,3 +1,5 @@
+/*Styling for MOBILE First*/
+
 *{padding:0;margin-left:0.5%;}
 
 body{
@@ -8,12 +10,14 @@ nav{
     display:flex;
     flex-direction:column;
     font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
 }
 
 a{
     color:#69696a;
     text-decoration:none;
     margin-top:5px;
+    font-weight:100;
 }
 
 #HireUs{
@@ -32,11 +36,17 @@ a{
     display:flex;
     flex-direction:column;
     align-items: center;
+    margin-left: 15px;
 }
 
 h1{
     font-family: 'Open Sans', sans-serif;
     align-self:flex-start;
+    margin-left: 15px;
+}
+
+h4{
+    margin-left: 15px;
 }
 
 p{
@@ -45,6 +55,11 @@ p{
     font-weight:normal, 400;
     border-left:4px solid #69696a;
     padding-left: 20px;
+}
+
+#ScrollContainer{
+    display: flex;
+    justify-content: center
 }
 
 #Scroll{
@@ -61,12 +76,9 @@ p{
 
 
 
-
-@media (min-width:480px){
-   
-    
-
-    
+/*Styling for DESKTOP*/
+@media (min-width:768px){
+       
     header{
         display:flex;
         justify-content: space-between;
@@ -81,6 +93,7 @@ p{
     a{
         margin:10px;
         white-space:nowrap;
+        font-weight:100;
     }
     
     #HireUs{
@@ -103,6 +116,7 @@ p{
         width:50%;
         position:relative;
         align-self:baseline;
+        left:0%;
     }
     
     
@@ -137,130 +151,14 @@ p{
     }
 
     
+
     #Scroll{
-        margin-top:100px;
+        margin-top:200px;
         padding: 10px 30px;
         border-radius:20px;
         width:auto;
     }
-    
-    #ScrollButton{
-        display:flex;
-        justify-content: center;
-    }
-    
-}
-
-
-/*    
-    
 
     
-    
-    
-    
-nav{
-    position:fixed;
-    top:10px;
-    right:50px;
-    width:100%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:normal,800;
-    display:flex;
-    justify-content:flex-end;
-    align-items:center;
-}
 
-
-
-h4{
-    position:fixed;
-    top:25px;
-    margin-left:20px;
-}
-
-a, #button{
-    color:#69696a;
-    text-decoration:none;
-    margin:10px;
-}
-
-#button{
-    background-color:#000;
-    color:#f9fafc;
-    padding: 10px 30px;
-    border-radius:20px;
-}
-
-
-#content{
-    position:absolute;
-    display:inline-block;
-}
-
-h1{
-    font-family: 'Open Sans', sans-serif;
-    position:relative;
-    margin-top:200px;
-    margin-left:20px;
-}
-
-p{
-    color:#69696a;
-    font-family: 'Open Sans', sans-serif;
-    font-weight:normal,800;
-    position:relative;
-    margin-top:20px;
-    width:38%;
-    border-left:4px solid #69696a;
-    padding-left: 20px;
-    margin-left:20px;
-}
-
-#RedCircle{
-    height:300px;
-    width:300px;
-    border-radius:50%;
-    background-color:rgba(247,   136,   167,   0.6);
-    position:absolute;
-    left:65%;
-    bottom:75px;
-}
-
-
-#PurpleCircle{
-    height:150px;
-    width:150px;
-    border-radius:50%;
-    background-color:rgba(207,   130,   213,   0.6);
-    position:absolute;
-    left:85%;
-    bottom:200px;
-}
-
-#OrangeCircle{
-    height:190px;
-    width:190px;
-    border-radius:50%;
-    background-color:rgba(247,   193,   162,   0.7);
-    position:absolute;
-    left:82%;
-    bottom:45px;
-}
-
-
-#Scroll{
-    font-family: 'Open Sans', sans-serif;
-    font-size:15px;
-    background-color:#000;
-    color:#f9fafc;
-    padding: 10px 30px;
-    border-radius:20px;
-    position:absolute;
-    left:50%;
-    bottom:-50px;
-}
-
-*/    
-    
-}
+}  /*Above if the bracket for end-media query of Desktop*/
